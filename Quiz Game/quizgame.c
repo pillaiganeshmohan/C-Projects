@@ -16,8 +16,8 @@ int main()
      mainhome:
      system("cls");
      printf("\t\t\tC PROGRAM QUIZ GAME\n");
+     printf("\n\t\t     DEVELOPED BY GANESH MOHAN");
      printf("\n\t\t________________________________________");
-
      printf("\n\t\t\t   WELCOME ");
      printf("\n\t\t\t      to ");
      printf("\n\t\t\t   THE GAME ");
@@ -53,7 +53,7 @@ int main()
     {
      system("cls");
 
-    printf("\n\n\n\n\n\n\n\n\n\n\t\t\tResister your name:");
+    printf("\n\n\n\n\n\n\n\n\n\n\t\t\tRegister your name:");
      gets(playername);
 
     system("cls");
@@ -96,8 +96,8 @@ int main()
      switch(r1)
 		{
 		case 1:
-		printf("\n\nWhich of the following is a Palindrome number?");
-		printf("\n\nA.42042\t\tB.101010\n\nC.23232\t\tD.01234");
+		printf("\n\nWhat's the biggest animal in the world?");
+		printf("\n\nA.Elephant\t\tB.Giraffe\n\nC.Blue Whale\t\tD.Shark");
 		if (toupper(getch())=='C')
 			{
 			    printf("\n\nCorrect!!!");count++;
@@ -106,20 +106,20 @@ int main()
 }
 		else
 		       {
-		           printf("\n\nWrong!!! The correct answer is C.23232");
+		           printf("\n\nWrong!!! The correct answer is C.Blue Whale");
 		           getch();
 		       break;
 		       }
 
         case 2:
-		printf("\n\n\nThe country with the highest environmental performance index is...");
-		printf("\n\nA.France\t\tB.Denmark\n\nC.Switzerland\t\tD.Finland");
-		if (toupper(getch())=='C')
+		printf("\n\n\nHow many times has Andy Murray won Wimbledon playing singles?");
+		printf("\n\nA.Once\t\tB.Twice\n\nC.Thrice\tD.Never");
+		if (toupper(getch())=='B')
 			{printf("\n\nCorrect!!!");count++;
 			getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is C.Switzerland");
+		       {printf("\n\nWrong!!! The correct answer is B.Twice");
 		       getch();
 		       break;}
 
@@ -136,26 +136,26 @@ int main()
 		       break;}
 
         case 4:
-		printf("\n\n\nWho was awarded the youngest player award in Fifa World Cup 2006?");
-		printf("\n\nA.Wayne Rooney\t\tB.Lucas Podolski\n\nC.Lionel Messi\t\tD.Christiano Ronaldo");
+		printf("\n\n\nWhat is the capital of Iceland?");
+		printf("\n\nA.New Delhi\t\tB.Reykjavík\n\nC.Washington\t\tD.Luanda");
 		if (toupper(getch())=='B')
 			{printf("\n\nCorrect!!!");count++;
 			getch();
 			 break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is B.Lucas Podolski");
+		       {printf("\n\nWrong!!! The correct answer is B.Reykjavík");
 		       getch();
 		       break;}
 
         case 5:
-        printf("\n\n\nWhich is the third highest mountain in the world?");
-        printf("\n\nA.Mt. K2\t\tB.Mt. Kanchanjungha\n\nC.Mt. Makalu\t\tD.Mt. Kilimanjaro");
-        if (toupper(getch())=='B')
+        printf("\n\n\nWho painted the Mona Lisa?");
+        printf("\n\nA.Vincent Van Gogh\t\tB.Claude Monet\n\nC.Leonardo da Vinci\t\tD.Pablo Picasso");
+        if (toupper(getch())=='C')
                {printf("\n\nCorrect!!!");count++;
                getch();
                 break;}
         else
-		       {printf("\n\nWrong!!! The correct answer is B.Mt. Kanchanjungha");
+		       {printf("\n\nWrong!!! The correct answer is C.Leonardo da Vinci");
 		       getch();
 		       break;}
 
@@ -196,36 +196,36 @@ game:
      switch(r)
 		{
 		case 1:
-		printf("\n\nWhat is the National Game of England?");
-		printf("\n\nA.Football\t\tB.Basketball\n\nC.Cricket\t\tD.Baseball");
+		printf("\n\nWhat is the National Game of India?");
+		printf("\n\nA.Football\t\tB.Basketball\n\nC.Hockey\t\tD.Baseball");
 		if (toupper(getch())=='C')
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;getch();}
 		else
-		       {printf("\n\nWrong!!! The correct answer is C.Cricket");getch();
+		       {printf("\n\nWrong!!! The correct answer is C.Hockey");getch();
 		       goto score;
 		       break;}
 
 		case 2:
-		printf("\n\n\nStudy of Earthquake is called............,");
-		printf("\n\nA.Seismology\t\tB.Cosmology\n\nC.Orology\t\tD.Etimology");
-		if (toupper(getch())=='A')
+		printf("\n\n\nHow many valves does the heart have?");
+		printf("\n\nA.One\t\tB.Two\n\nC.Three\t\tD.Four");
+		if (toupper(getch())=='D')
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is A.Seismology");getch();
+		       {printf("\n\nWrong!!! The correct answer is D.Four");getch();
 		      goto score;
 		       break;
 		       }
 
         case 3:
-		printf("\n\n\nAmong the top 10 highest peaks in the world, how many lie in Nepal? ");
-		printf("\n\nA.6\t\tB.7\n\nC.8\t\tD.9");
+		printf("\n\n\nWhat does He stand for on the periodic table?");
+		printf("\n\nA.Hydrogen\t\tB.Oxygen\n\nC.Helium\t\tD.Nitrogen");
 		if (toupper(getch())=='C')
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is C.8");getch();
+		       {printf("\n\nWrong!!! The correct answer is C.Helium");getch();
 		       goto score;
 		       break;}
 
@@ -243,13 +243,13 @@ game:
 		       }
 
         case 5:
-		printf("\n\n\nIn what unit is electric power measured?");
-		printf("\n\nA.Coulomb\t\tB.Watt\n\nC.Power\t\tD.Units");
+		printf("\n\n\nWhat fruit takes the scientific name Mangifera indica?");
+		printf("\n\nA.Mosambi\tB.Mango\n\nC.Apple\t\tD.Chikkoo");
 		if (toupper(getch())=='B')
 			{printf("\n\nCorrect!!!");countr++;getch(); break;}
 		else
 		       {
-		           printf("\n\nWrong!!! The correct answer is B.Power");
+		           printf("\n\nWrong!!! The correct answer is B.Mango");
 		       getch();
 		       goto score;
 		       break;
@@ -257,7 +257,7 @@ game:
 
 		case 6:
 		printf("\n\n\nWhich element is found in Vitamin B12?");
-		printf("\n\nA.Zinc\t\tB.Cobalt\n\nC.Calcium\t\tD.Iron");
+		printf("\n\nA.Zinc\t\tB.Cobalt\n\nC.Calcium\tD.Iron");
 		if (toupper(getch())=='B' )
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
@@ -267,13 +267,13 @@ game:
 		       break;}
 
         case 7:
-		printf("\n\n\nWhat is the National Name of Japan?");
-		printf("\n\nA.Polska\t\tB.Hellas\n\nC.Drukyul\t\tD.Nippon");
+		printf("\n\n\nWhat was the most streamed show on Netflix in 2020?");
+		printf("\n\nA.Lost in Space\t\tB.Stranger Things\n\nC.Sex Education\t\tD.The Umbrella Academy");
 		if (toupper(getch())=='D')
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is D.Nippon");getch();
+		       {printf("\n\nWrong!!! The correct answer is D.The Umbrella Academy");getch();
 		       goto score;
 		       break;}
 
@@ -289,7 +289,7 @@ game:
 
         case 9:
 		printf("\n\n\nWhat is the capital of Denmark?");
-		printf("\n\nA.Copenhagen\t\tB.Helsinki\n\nC.Ajax\t\tD.Galatasaray");
+		printf("\n\nA.Copenhagen\t\tB.Helsinki\n\nC.Ajax\t\t\tD.Galatasaray");
 		if (toupper(getch())=='A')
 			{printf("\n\nCorrect!!!");countr++; getch();
 			break;}
@@ -307,13 +307,13 @@ game:
 		       {printf("\n\nWrong!!! The correct answer is A.Nile");getch();break;goto score;}
 
         case 11:
-		printf("\n\n\nWhat is the color of the Black Box in aeroplanes?");
-		printf("\n\nA.White\t\tB.Black\n\nC.Orange\t\tD.Red");
+		printf("\n\n\nHow many episodes of Scrubs were there?");
+		printf("\n\nA.179\t\tB.180\n\nC.181\t\tD.182");
 		if (toupper(getch())=='C')
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
 		else
-              {printf("\n\nWrong!!! The correct answer is C.Orange");getch();
+              {printf("\n\nWrong!!! The correct answer is C.181");getch();
               break;goto score;}
 
         case 12:
@@ -337,13 +337,13 @@ game:
 		       break;goto score;}
 
         case 14:
-		printf("\n\n\nWho is the author of 'Pulpasa Cafe'?");
-		printf("\n\nA.Narayan Wagle\t\tB.Lal Gopal Subedi\n\nC.B.P. Koirala\t\tD.Khagendra Sangraula");
+		printf("\n\n\nHow many elements are there in the periodic table?");
+		printf("\n\nA.118\t\tB.119\n\nC.120\t\tD.123");
 		if (toupper(getch())=='A')
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is A.Narayan Wagle");getch();
+		       {printf("\n\nWrong!!! The correct answer is A.118");getch();
 		       break;goto score;}
 
 		case 15:
@@ -369,30 +369,29 @@ game:
 		       goto score;
 		       break;}
 
-
 		case 17:
-		printf("\n\n\nThe country famous for Samba Dance is........");
-		printf("\n\nA.Brazil\t\tB.Venezuela\n\nC.Nigeria\t\tD.Bolivia");
+		printf("\n\n\nHow many sides does a heptadecagon have");
+		printf("\n\nA.17\t\tB.16\n\nC.19\t\tD.15");
 		if (toupper(getch())=='A')
 			{printf("\n\nCorrect!!!");countr++; getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is A.Brazil");getch();goto score;
+		       {printf("\n\nWrong!!! The correct answer is A.17");getch();goto score;
 		       break;}
 
 		case 18:
-		printf("\n\n\nWind speed is measure by__________?");
-		printf("\n\nA.Lysimeter\t\tB.Air vane\n\nC.Hydrometer\t\tD.Anemometer\n\n");
+		printf("\n\n\nHow many bones does a shark have?");
+		printf("\n\nA.23\t\tB.8\n\nC.64\t\tD.None");
 		if (toupper(getch())=='D')
 			{printf("\n\nCorrect!!!");countr++; getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is D.Anemometer");getch();goto score;
+		       {printf("\n\nWrong!!! The correct answer is D.None");getch();goto score;
 		       break;}
 
 		case 19:
 		printf("\n\n\nWhich city in the world is popularly known as The City of Temple?");
-		printf("\n\nA.Delhi\tB.Bhaktapur\n\nC.Kathmandu\tD.Agra\n\n");
+		printf("\n\nA.Delhi\tB.Bhaktapur\n\nC.Kathmandu\tD.Agra");
 		if (toupper(getch())=='C')
 			{printf("\n\nCorrect!!!");countr++; getch();
 			break;}
@@ -421,23 +420,23 @@ game:
 		       break;}
 
 		case 22:
-		printf("\n\n\nWho won the Women's Australian Open Tennis in 2007?");
-		printf("\n\nA.Martina Hingis\t\tB.Maria Sarapova\n\nC.Kim Clijster\t\tD.Serena Williams");
+		printf("\n\n\nHow many minutes in a game of rugby league?");
+		printf("\n\nA.120\t\tB.60\n\nC.90\t\tD.80");
 		if (toupper(getch())=='D')
 			{printf("\n\nCorrect!!!");countr++; getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is D.Serena Williams");getch();goto score;
+		       {printf("\n\nWrong!!! The correct answer is D.80");getch();goto score;
 		       break;}
 
 		case 23:
-		printf("\n\n\nWhich film was awarded the Best Motion Picture at Oscar in 2010?");
-		printf("\n\nA.The Secret in their Eyes\t\tB.Shutter Island\n\nC.The King's Speech\t\tD.The Reader");
+		printf("\n\n\nWho sang the song 'Dusk Till Dawn'?");
+		printf("\n\nA.Selena Gomez\t\tB.Serena Williams\n\nC.Zayn Malik\t\tD.Drake");
 		if (toupper(getch())=='C')
 			{printf("\n\nCorrect!!!");countr++; getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is C.The King's Speech");getch();goto score;
+		       {printf("\n\nWrong!!! The correct answer is C.Zayn Malik");getch();goto score;
 		       break;}}}
 	score:
     system("cls");
@@ -450,7 +449,7 @@ game:
 	 else if(score==1000000.00)
 	{
 	    printf("\n\n\n \t\t**************** CONGRATULATION ****************");
-	    printf("\n\t\t\t\t YOU ARE A MILLIONAIRE!!!!!!!!!");
+	    printf("\n\t\t\tYOU ARE A MILLIONAIRE!!!!!!!!!");
 	    printf("\n\t\t You won $%.2f",score);
 	    printf("\t\t Thank You!!");
 	}
@@ -512,7 +511,7 @@ void help()
     printf("\n >> No negative marking for wrong answers");
 
 	printf("\n\n\t*********************BEST OF LUCK*********************************");
-	printf("\n\n\t*****C PROGRAM QUIZ GAME is developed by CODE WITH C TEAM********");}
+	printf("\n\n\t*****C PROGRAM QUIZ GAME is developed by GANESH MOHAN*************");}
 
 void edit_score(float score, char plnm[20])
 	{system("cls");
